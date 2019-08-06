@@ -3,9 +3,12 @@
   "license": "ISC",
   "scripts": {
     "start": "parcel src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-typescript": "^7.3.3",
     "@types/react": "^16.8.19",
     "@types/react-dom": "^16.8.4",
     "parcel-bundler": "^1.12.3",
@@ -14,6 +17,16 @@
     "typescript": "^3.5.1"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
     "prettier": "^1.17.1"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/.cache/",
+      "/dist/",
+      "/node_modules/"
+    ]
   }
 }
