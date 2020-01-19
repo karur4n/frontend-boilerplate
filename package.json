@@ -2,24 +2,31 @@
   "private": true,
   "license": "ISC",
   "scripts": {
-    "start": "parcel src/index.html",
-    "test": "jest"
+    "start": "webpack-dev-server --mode development --hotOnly",
+    "test": "jest",
+    "typecheck": "tsc"
   },
   "dependencies": {
-    "@babel/core": "^7.8.3",
-    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
     "@babel/preset-typescript": "^7.8.3",
     "@types/react": "^16.9.17",
     "@types/react-dom": "^16.9.4",
-    "parcel-bundler": "^1.12.4",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "typescript": "^3.7.5"
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   },
   "devDependencies": {
+    "@hot-loader/react-dom": "^16.11.0",
     "@types/jest": "^24.9.0",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "react-hot-loader": "^4.12.18",
+    "webpack-dev-server": "^3.10.1"
   }
 }
