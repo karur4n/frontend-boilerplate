@@ -9,7 +9,7 @@
   "dependencies": {
     "@babel/preset-react": "^7.8.3",
     "@babel/preset-typescript": "^7.8.3",
-    "@types/react": "^16.9.17",
+    "@types/react": "^16.9.18",
     "@types/react-dom": "^16.9.5",
     "babel-loader": "^8.0.6",
     "html-webpack-plugin": "^3.2.0",
@@ -24,7 +24,7 @@
     "@hot-loader/react-dom": "^16.11.0",
     "@types/jest": "^24.9.0",
     "babel-jest": "^25.1.0",
-    "jest": "^24.9.0",
+    "jest": "^25.1.0",
     "prettier": "^1.19.1",
     "react-hot-loader": "^4.12.18",
     "webpack-dev-server": "^3.10.1"
