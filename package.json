@@ -26,7 +26,7 @@
     "babel-jest": "^25.1.0",
     "jest": "^25.1.0",
     "prettier": "^1.19.1",
-    "react-hot-loader": "^4.12.18",
+    "react-hot-loader": "^4.12.19",
     "webpack-dev-server": "^3.10.1"
   }
 }
