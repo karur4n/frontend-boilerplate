@@ -7,9 +7,9 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@babel/preset-react": "^7.9.1",
+    "@babel/preset-react": "^7.9.4",
     "@babel/preset-typescript": "^7.9.0",
-    "@types/react": "^16.9.25",
+    "@types/react": "^16.9.29",
     "@types/react-dom": "^16.9.5",
     "babel-loader": "^8.1.0",
     "html-webpack-plugin": "^3.2.0",
@@ -23,7 +23,7 @@
   "devDependencies": {
     "@hot-loader/react-dom": "^16.13.0",
     "@types/jest": "^25.1.4",
-    "babel-jest": "^25.1.0",
+    "babel-jest": "^25.2.4",
     "jest": "^25.2.4",
     "prettier": "^1.19.1",
     "react-hot-loader": "^4.12.20",
