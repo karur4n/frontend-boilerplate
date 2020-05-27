@@ -7,7 +7,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-react": "^7.10.0",
     "@babel/preset-typescript": "^7.9.0",
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.6",
