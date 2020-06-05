@@ -7,8 +7,8 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@babel/preset-react": "^7.9.4",
-    "@babel/preset-typescript": "^7.9.0",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/preset-typescript": "^7.10.1",
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.6",
     "@types/react-dom": "^16.9.7",
@@ -17,7 +17,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "ts-loader": "^7.0.5",
-    "typescript": "^3.8.3",
+    "typescript": "^3.9.5",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   },
