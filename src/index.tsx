@@ -1,6 +1,7 @@
-import { hot } from 'react-hot-loader/root'
 import React from 'react'
 import ReactDOM from 'react-dom'
+import 'antd/dist/antd.css'
+import { Button } from 'antd'
 
 document.addEventListener('DOMContentLoaded', () => {
   const rootEl = document.getElementById('root')
@@ -8,6 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(<App />, rootEl)
 })
 
-const App: React.FC = hot(() => {
-  return <div>Hello</div>
-})
+const App: React.FC = () => {
+  return (
+    <div>
+      <p className="mb-4">Hello</p>
+      <Button type="primary">Primary Button</Button>
+    </div>
+  )
+}
