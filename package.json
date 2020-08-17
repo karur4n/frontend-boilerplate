@@ -27,7 +27,7 @@
     "webpack-cli": "^3.3.11"
   },
   "devDependencies": {
-    "@types/jest": "^25.2.3",
+    "@types/jest": "^26.0.10",
     "babel-jest": "^26.0.1",
     "jest": "^26.0.1",
     "prettier": "^2.0.5",
