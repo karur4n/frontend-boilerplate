@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import 'antd/dist/antd.css'
-import { Button } from 'antd'
+import 'minireset.css/minireset.css'
+import { css } from 'linaria'
 
 document.addEventListener('DOMContentLoaded', () => {
   const rootEl = document.getElementById('root')
@@ -11,9 +11,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const App: React.FC = () => {
   return (
-    <div>
-      <p className="mb-4">Hello</p>
-      <Button type="primary">Primary Button</Button>
+    <div className={wrapper}>
+      <p className={greeting}>Hello</p>
+      <button>Primary Button</button>
     </div>
   )
 }
+
+const wrapper = css`
+  margin: 16px;
+`
+
+const greeting = css`
+  margin-bottom: 16px;
+`

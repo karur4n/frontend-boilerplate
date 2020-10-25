@@ -2,9 +2,7 @@
   "private": true,
   "license": "ISC",
   "scripts": {
-    "build:dev:css": "tailwindcss build src/tailwind.css -o public/tailwind.css",
-    "build:prod:css": "NODE_ENV=production tailwindcss build src/tailwind.css -o public/tailwind.css",
-    "start": "webpack-dev-server --mode development --content-base ./public",
+    "start": "NODE_ENV=development webpack-dev-server",
     "test": "jest",
     "typecheck": "tsc"
   },
@@ -15,8 +13,9 @@
     "@types/react-dom": "^16.9.7",
     "antd": "^4.6.3",
     "babel-loader": "^8.1.0",
-    "css-loader": "^3.5.3",
     "html-webpack-plugin": "^4.3.0",
+    "linaria": "^1.3.3",
+    "minireset.css": "0.0.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "style-loader": "^1.2.1",
@@ -27,10 +26,15 @@
     "webpack-cli": "^3.3.11"
   },
   "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.4.2",
     "@types/jest": "^26.0.13",
     "babel-jest": "^26.0.1",
+    "css-loader": "^3.6.0",
     "jest": "^26.0.1",
+    "mini-css-extract-plugin": "^1.2.0",
     "prettier": "^2.0.5",
+    "react-refresh": "^0.9.0",
+    "type-fest": "^0.18.0",
     "webpack-dev-server": "^3.11.0"
   }
 }
