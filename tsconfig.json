@@ -16,7 +16,7 @@
     "noEmit": true /* 出力しないでください。 */,
     // "importHelpers": true,                 /* 生成ヘルパーを 'tslib' からインポートします。 */
     // "downlevelIteration": true,            /* 'for-of' の iterable、spread、'ES5' や 'ES3' をターゲットとする場合は destructuring に対してフル サポートを提供します。 */
-    // "isolatedModules": true,               /* 個々のモジュールとして各ファイルをトランスパイルします ('ts.transpileModule' に類似)。 */
+    "isolatedModules": true /* 個々のモジュールとして各ファイルをトランスパイルします ('ts.transpileModule' に類似)。 */,
 
     /* Strict 型チェック オプション */
     "strict": true /* 厳密な型チェックのオプションをすべて有効にします。 */,
@@ -35,7 +35,7 @@
 
     /* モジュール解決のオプション */
     "moduleResolution": "node" /* モジュールの解決方法を指定します: 'node' (Node.js) または 'classic' (TypeScript pre-1.6)。 */,
-     "baseUrl": ".",                       /* 相対モジュール名を解決するためのベース ディレクトリ。 */
+    "baseUrl": "." /* 相対モジュール名を解決するためのベース ディレクトリ。 */,
     // "paths": {},                           /* 'baseUrl' の相対的な場所を検索するためにインポートを再マップする一連のエントリ。 */
     // "rootDirs": [],                        /* 結合されたコンテンツがランタイムでのプロジェクトの構成を表すルート フォルダーの一覧。 */
     // "typeRoots": [],                       /* 含める型定義の元のフォルダーの一覧。 */
