@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import 'minireset.css/minireset.css'
-import { css } from 'linaria'
+import { css } from '@linaria/core'
 
 document.addEventListener('DOMContentLoaded', () => {
   const rootEl = document.getElementById('root')

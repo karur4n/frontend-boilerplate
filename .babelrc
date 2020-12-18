@@ -1,9 +1,5 @@
 {
-  "presets": [
-    "@babel/preset-typescript",
-    "@babel/preset-react",
-    "linaria/babel"
-  ],
+  "presets": ["@babel/preset-typescript", "@babel/preset-react", "@linaria"],
   "env": {
     "development": {
       "plugins": ["react-refresh/babel"]

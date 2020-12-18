@@ -17,9 +17,16 @@ module.exports = {
       {
         test: /\.tsx?$/,
         use: [
-          { loader: 'babel-loader' },
           {
-            loader: 'linaria/loader',
+            loader: 'babel-loader',
+            options: {
+              plugins: [
+                isDevelopment && require.resolve('react-refresh/babel'),
+              ].filter(Boolean),
+            },
+          },
+          {
+            loader: '@linaria/webpack-loader',
             options: {
               sourceMap: isDevelopment,
             },
@@ -31,9 +38,6 @@ module.exports = {
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
-            options: {
-              hmr: isDevelopment,
-            },
           },
           {
             loader: 'css-loader',
